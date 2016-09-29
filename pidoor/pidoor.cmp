@@ -1,10 +1,259 @@
-Cmp-Mod V01 Created by CvPcb (2012-11-15 BZR 3804)-testing date = 15/11/2012 21:23:25
+Cmp-Mod V01 Created by PcbNew   date = Thu 29 Sep 2016 10:48:24 BST
 
 BeginCmp
-TimeStamp = /50A55ABA;
+TimeStamp = 57EBDFB8
+Path = /57EBD5E8
+Reference = P7;
+ValeurCmp = MAG0;
+IdModule  = pidoor:3_5mm_terminal_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE055
+Path = /57EC1CED
+Reference = U2;
+ValeurCmp = MAX232;
+IdModule  = TO_SOT_Packages_SMD:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 50A55DA3
+Path = /50A55ABA
 Reference = P1;
-ValeurCmp = CONN_13X2;
+ValeurCmp = PI;
 IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF97
+Path = /57EB79BD
+Reference = P2;
+ValeurCmp = PWR;
+IdModule  = pidoor:3_5mm_terminal_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDFA9
+Path = /57EB93DB
+Reference = P5;
+ValeurCmp = IN2;
+IdModule  = pidoor:3_5mm_terminal_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDFA3
+Path = /57EB92E1
+Reference = P4;
+ValeurCmp = IN1;
+IdModule  = pidoor:3_5mm_terminal_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF9D
+Path = /57EB85D0
+Reference = P3;
+ValeurCmp = IN0;
+IdModule  = pidoor:3_5mm_terminal_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF55
+Path = /57ECD9CB
+Reference = C1;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF5B
+Path = /57ECDAA8
+Reference = C2;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF61
+Path = /57EB8BFC
+Reference = C3;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF67
+Path = /57EB92F3
+Reference = C4;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF6D
+Path = /57EB93ED
+Reference = C5;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF73
+Path = /57EC2488
+Reference = C6;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF79
+Path = /57EC1F33
+Reference = C7;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF7F
+Path = /57EC27F6
+Reference = C8;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF85
+Path = /57EC22B0
+Reference = C9;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDF8B
+Path = /57EC2949
+Reference = C10;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDFD2
+Path = /57EBBC6C
+Reference = Q1;
+ValeurCmp = PMN25UN;
+IdModule  = TO_SOT_Packages_SMD:SC-70-6_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDFDC
+Path = /57EBF16F
+Reference = Q2;
+ValeurCmp = PMN25UN;
+IdModule  = TO_SOT_Packages_SMD:SC-70-6_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDFE6
+Path = /57EBE1CA
+Reference = Q3;
+ValeurCmp = PMN25UN;
+IdModule  = TO_SOT_Packages_SMD:SC-70-6_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDFF6
+Path = /57EB8F8C
+Reference = R1;
+ValeurCmp = 4K7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDFFC
+Path = /57EB92FE
+Reference = R2;
+ValeurCmp = 4K7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE002
+Path = /57EB93F8
+Reference = R3;
+ValeurCmp = 4K7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE008
+Path = /57EB8BAF
+Reference = R4;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE00E
+Path = /57EB92ED
+Reference = R5;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE014
+Path = /57EB93E7
+Reference = R6;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE01A
+Path = /57EBC886
+Reference = R7;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE020
+Path = /57EBF176
+Reference = R8;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE026
+Path = /57EBE1D1
+Reference = R9;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE02C
+Path = /57ED141B
+Reference = R10;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBE04C
+Path = /57EB80F8
+Reference = U1;
+ValeurCmp = 3.3v;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57EBDFAF
+Path = /57EBB4E1
+Reference = P6;
+ValeurCmp = READER;
+IdModule  = pidoor:3_5mm_terminal_1x02;
 EndCmp
 
 EndListe
