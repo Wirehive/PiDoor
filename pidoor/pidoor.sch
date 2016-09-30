@@ -38,7 +38,7 @@ Sheet 1 1
 Title "PiDoor"
 Date "2016-09-29"
 Rev "0.2.0"
-Comp "Wirehive Ltd"
+Comp "©2016 Wirehive ltd, CC BY-SA "
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -48,7 +48,7 @@ Wire Wire Line
 	2600 850  2600 1100
 Wire Wire Line
 	2600 1000 2500 1000
-NoConn ~ 1700 1800
+NoConn ~ 2000 1800
 Wire Wire Line
 	2600 1200 2600 2300
 Wire Wire Line
@@ -409,10 +409,10 @@ F 3 "" H 6050 1450 50  0000 C CNN
 	1    6050 1450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1700 1000
-NoConn ~ 1700 1900
-NoConn ~ 1700 2000
-NoConn ~ 1700 2100
+NoConn ~ 2000 1000
+NoConn ~ 2000 1900
+NoConn ~ 2000 2000
+NoConn ~ 2000 2100
 NoConn ~ 2500 2100
 NoConn ~ 2500 2200
 $Comp
@@ -814,17 +814,17 @@ F 3 "" H 6050 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 1400 1600 1400
+	2000 1400 1900 1400
 Wire Wire Line
-	1600 1400 1600 2300
+	1900 1400 1900 2300
 Wire Wire Line
-	1600 2300 2600 2300
+	1900 2300 2600 2300
 Wire Wire Line
 	2500 1900 2600 1900
 Connection ~ 2600 1900
 Wire Wire Line
-	1700 2200 1600 2200
-Connection ~ 1600 2200
+	2000 2200 1900 2200
+Connection ~ 1900 2200
 $Comp
 L MAX232 U2
 U 1 1 57EC1CED
@@ -863,24 +863,13 @@ Connection ~ 2600 1000
 Wire Wire Line
 	2500 1600 2600 1600
 Connection ~ 2600 1600
-$Comp
-L CONN_13X2 P1
-U 1 1 50A55ABA
-P 2100 1600
-F 0 "P1" H 2100 2300 60  0000 C CNN
-F 1 "PI" V 2100 1600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x13" H 2100 1600 60  0001 C CNN
-F 3 "" H 2100 1600 60  0001 C CNN
-	1    2100 1600
-	1    0    0    -1  
-$EndComp
-Text Label 1700 1100 2    60   ~ 0
+Text Label 2000 1100 2    60   ~ 0
 IN2
-Text Label 1700 1200 2    60   ~ 0
+Text Label 2000 1200 2    60   ~ 0
 IN1
-Text Label 1700 1300 2    60   ~ 0
+Text Label 2000 1300 2    60   ~ 0
 IN0
-Text Label 1700 1500 2    60   ~ 0
+Text Label 2000 1500 2    60   ~ 0
 EMG
 Text Label 2500 1500 0    60   ~ 0
 BUZZER
@@ -888,6 +877,17 @@ Text Label 2500 1700 0    60   ~ 0
 EN_READ
 Text Label 2500 1800 0    60   ~ 0
 MAG
-NoConn ~ 1700 1600
-NoConn ~ 1700 1700
+NoConn ~ 2000 1600
+NoConn ~ 2000 1700
+$Comp
+L CONN_02X13 P1
+U 1 1 57EE4231
+P 2250 1600
+F 0 "P1" H 2250 2300 50  0000 C CNN
+F 1 "CONN_02X13" V 2250 1600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x13" H 2250 450 50  0001 C CNN
+F 3 "" H 2250 450 50  0000 C CNN
+	1    2250 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

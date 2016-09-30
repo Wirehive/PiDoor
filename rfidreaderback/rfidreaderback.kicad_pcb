@@ -3,7 +3,7 @@
   (general
     (links 26)
     (no_connects 0)
-    (area 130.924999 95.924999 173.075001 136.075001)
+    (area 130.625 95.924999 174.682143 136.075001)
     (thickness 1.6)
     (drawings 15)
     (tracks 91)
@@ -17,7 +17,7 @@
     (title "RFID Reader Back")
     (date 2016-09-30)
     (rev 0.0.1)
-    (company "Wirehive Ltd")
+    (company "©2016 Wirehive ltd, CC BY-SA ")
   )
 
   (layers

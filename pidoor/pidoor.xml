@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/barnaby/wirehive/pyDoorControl/pcb/pidoor/pidoor.sch</source>
+    <source>pidoor.sch</source>
     <date>Thu 29 Sep 2016 09:43:46 BST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -431,7 +431,7 @@
       <uri>/usr/share/kicad/library/interface.lib</uri>
     </library>
     <library logical="pidoor-cache">
-      <uri>/home/barnaby/wirehive/pyDoorControl/pcb/pidoor/pidoor-cache.lib</uri>
+      <uri>pidoor-cache.lib</uri>
     </library>
   </libraries>
   <nets>

@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/barnaby/wirehive/pyDoorControl/pcb/rfidreaderback/rfidreaderback.sch)
+    (source rfidreaderback.sch)
     (date "Fri 30 Sep 2016 10:21:57 BST")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
