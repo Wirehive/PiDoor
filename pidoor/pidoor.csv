@@ -1,0 +1,17 @@
+Id,Designator,Package,Quantity,Designation,Supplier,Ref,Manufacturer,Description
+1,P1,Socket_Strip_Straight_2x13,1,CONN_02X13,Farnell,2505017,SSW-113-01-T-D,"SAMTEC  SSW-113-01-T-D  Board-To-Board Connector, SSW Series, 26 Contacts, Receptacle, 2.54 mm, Through Hole, 2 Rows"
+2,"R10,R4,R5,R6,R7,R8,R9",R_0603,7,4k7,,,,
+3,P2,3_5mm_terminal_1x02,1,PWR,Farnell,2517858,20.155MH/2-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:2Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
+4,P5,3_5mm_terminal_1x02,1,IN2,Farnell,2517858,20.155MH/2-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:2Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
+5,P4,3_5mm_terminal_1x02,1,IN1,Farnell,2517858,20.155MH/2-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:2Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
+6,P3,3_5mm_terminal_1x02,1,IN0,Farnell,2517858,20.155MH/2-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:2Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
+7,"C1,C2,C3,C4,C5,C6,C7,C8,C9,C10",C_0603,10,1µ,,,,
+8,P6,3_5mm_terminal_1x05,1,READER,Farnell,2575218,20.155MH/5-E,Pitch Spacing:3.5mm; No. of Positions:5Ways; Wire Size AWG Min:28AWG; Wire Size AWG Max:16AWG; Conductor Area CSA:1.5mm²; Wire Connection Method:Screw; Rated Current:10A; Rated Voltage:250V
+9,P7,3_5mm_terminal_1x04,1,MAG,Farnell,2517860,20.155MH/4-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:4Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
+10,"Q1,Q2,Q3",SOT-23,3,PMV16XN,Farnell,2498578,PMV16XN,Transistor Polarity:N Channel; Continuous Drain Current Id:6.8A; Drain Source Voltage Vds:20V; On Resistance Rds(on):0.016ohm; Rds(on) Test Voltage Vgs:4.5V; Threshold Voltage Vgs:650m
+11,"R1,R2,R3",R_0603,3,4K7,,,,
+12,U2,SOIC-16_3.9x9.9mm_Pitch1.27mm,1,ST3232BDR,Farnell,1467752,ST3232BDR,Device Type:Line Driver / Receiver; IC Interface Type:RS232; No. of Drivers:2Drivers; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Driver Case Style:SOIC; No. of Pins:16Pins; O
+13,U1,MIC5317,1,MIC5317-3.3YM5,Farnell,2420872,MIC5317-3.3YM5,Output Type:Fixed; Input Voltage Min:2.5V; Input Voltage Max:6V; Fixed Output Voltage Nom.:3.3V; Adjustable Output Voltage Min; Available until stocks are exhausted Alternative available
+14,D1,SMA_Standard,1,D_Small,DO NOT POPULATE,,,
+15,"JP1,JP2",SMD_Jumper,2,JUMPER,NA,,,
+16,K1,Relay_G6L,1,RELAY_G6L,DO NOT POPULATE,,,

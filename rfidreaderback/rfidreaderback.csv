@@ -1,0 +1,10 @@
+Id,Designator,Package,Quantity,Designation,Supplier,Ref,Manufacturer,Description
+1,SP1,MagneticBuzzer_ProSignal_ABT-410-RC,1,MCABI-020-RC,Farnell,2361099,MCABI-020-RC,Supply Voltage Min:8VDC; Supply Voltage Max:15VDC; Tones:Continuous; Sound Level SPL:85dBA; Transducer Function:Sounder; Current Rating:30mA; Resonant Frequency:2.3kHz; Transducer Mou
+2,"REF**,REF**",MountingHole_3mm,2,MountingHole_3mm,NA,,,
+3,U3,SOT-23-5,1,MIC5317-3.3YM5,Farnell,2420872,MCABI-020-RC,Output Type:Fixed; Input Voltage Min:2.5V; Input Voltage Max:6V; Fixed Output Voltage Nom.:3.3V; Adjustable Output Voltage Min; Available until stocks are exhausted Alternative available
+4,P2,3_5mm_terminal_1x05,1,PI,Farnell,2517861,20.155MH/5-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:5Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
+5,U1,SOT-223,1,LD1117S50TR,Farnell,1467781,LD1117S50TR,Output Type:Fixed; Input Voltage Min:6.5V; Input Voltage Max:15V; Fixed Output Voltage Nom.:5V; Adjustable Output Voltage Min:-; Adjustable Output Voltage Max:-; Output Current:800mA; Dropout Volt
+6,P1,Socket_Strip_Straight_1x04,1,READER,Farnell,7991932,M20-7820446,"HARWIN M20-7820446 Board-To-Board Connector, M20 Series, 4 Contacts, Receptacle, 2.54 mm, Through Hole, 1 Rows"
+7,"C3,C4,C5,C6,C7,C8",C_0603,6,1µ,,,,
+8,U2,SOIC-16_3.9x9.9mm_Pitch1.27mm,1,ST3232BDR,Farnell,1467752,ST3232BDR,Device Type:Line Driver / Receiver; IC Interface Type:RS232; No. of Drivers:2Drivers; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Driver Case Style:SOIC; No. of Pins:16Pins; O
+9,"C1,C2",TantalC_SizeT_EIA-3528,2,22µ,,,,
