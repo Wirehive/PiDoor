@@ -5,8 +5,8 @@ Id,Designator,Package,Quantity,Designation,Supplier,Ref,Manufacturer,Description
 4,P5,3_5mm_terminal_1x02,1,IN2,Farnell,2517858,20.155MH/2-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:2Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
 5,P4,3_5mm_terminal_1x02,1,IN1,Farnell,2517858,20.155MH/2-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:2Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
 6,P3,3_5mm_terminal_1x02,1,IN0,Farnell,2517858,20.155MH/2-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:2Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
-7,"C1,C2,C3,C4,C5,C6,C7,C8,C9,C10",C_0603,10,1µ,,,,
-8,P6,3_5mm_terminal_1x05,1,READER,Farnell,2575218,20.155MH/5-E,Pitch Spacing:3.5mm; No. of Positions:5Ways; Wire Size AWG Min:28AWG; Wire Size AWG Max:16AWG; Conductor Area CSA:1.5mm²; Wire Connection Method:Screw; Rated Current:10A; Rated Voltage:250V
+7,"C1,C2,C3,C4,C5,C6,C7,C8,C9,C10",C_0603,10,1u,,,,
+8,P6,3_5mm_terminal_1x05,1,READER,Farnell,2517861,20.155MH/5-E,Pitch Spacing:3.5mm; No. of Positions:5Ways; Wire Size AWG Min:28AWG; Wire Size AWG Max:16AWG; Conductor Area CSA:1.5mm; Wire Connection Method:Screw; Rated Current:10A; Rated Voltage:250V
 9,P7,3_5mm_terminal_1x04,1,MAG,Farnell,2517860,20.155MH/4-E,Gender:Header; Pitch Spacing:3.5mm; No. of Positions:4Ways; Rated Current:10A; Rated Voltage:250V; Block Orientation:Through Hole Right Angle; Product Range:-; SVHC:No SVHC (15-Jun-2015)
 10,"Q1,Q2,Q3",SOT-23,3,PMV16XN,Farnell,2498578,PMV16XN,Transistor Polarity:N Channel; Continuous Drain Current Id:6.8A; Drain Source Voltage Vds:20V; On Resistance Rds(on):0.016ohm; Rds(on) Test Voltage Vgs:4.5V; Threshold Voltage Vgs:650m
 11,"R1,R2,R3",R_0603,3,4K7,,,,
