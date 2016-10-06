@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title "PiDoor"
 Date "2016-09-29"
-Rev "0.2.0"
+Rev "0.2.1"
 Comp "©2016 Wirehive ltd, CC BY-SA "
 Comment1 ""
 Comment2 ""
@@ -672,7 +672,6 @@ F 3 "" H 2950 5250 50  0000 C CNN
 	1    2950 5250
 	0    1    1    0   
 $EndComp
-NoConn ~ 1550 5550
 NoConn ~ 2750 5550
 Text Label 2750 5450 0    60   ~ 0
 EIA-TX
@@ -838,9 +837,9 @@ Connection ~ 2600 1000
 Wire Wire Line
 	2500 1600 2600 1600
 Connection ~ 2600 1600
-Text Label 2000 1100 2    60   ~ 0
-IN2
 Text Label 2000 1300 2    60   ~ 0
+IN2
+Text Label 2000 1100 2    60   ~ 0
 IN1
 Text Label 2000 1200 2    60   ~ 0
 IN0
@@ -975,4 +974,17 @@ Wire Wire Line
 	5050 6200 5050 6600
 Wire Wire Line
 	5650 4550 4700 4550
+$Comp
+L GND #PWR024
+U 1 1 57F68AC0
+P 1200 5550
+F 0 "#PWR024" H 1200 5300 50  0001 C CNN
+F 1 "GND" H 1200 5400 50  0000 C CNN
+F 2 "" H 1200 5550 50  0000 C CNN
+F 3 "" H 1200 5550 50  0000 C CNN
+	1    1200 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5550 1200 5550
 $EndSCHEMATC

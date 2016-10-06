@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad 4.0.2+dfsg1-stable} date Mon 03 Oct 2016 15:34:39 BST
+;DRILL file {KiCad 4.0.2+dfsg1-stable} date Thu 06 Oct 2016 17:54:43 BST
 ;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
@@ -13,10 +13,10 @@ G05
 M71
 T1
 X140.55Y-136.01
+X148.55Y-134.76
+X148.55Y-137.76
 X149.8Y-133.26
-X149.8Y-134.76
 X149.8Y-136.26
-X149.8Y-137.76
 X149.8Y-139.26
 T2
 X166.49Y-139.8

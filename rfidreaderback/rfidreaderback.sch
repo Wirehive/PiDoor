@@ -36,24 +36,13 @@ encoding utf-8
 Sheet 1 1
 Title "RFID Reader Back"
 Date "2016-09-28"
-Rev "0.0.1"
+Rev "0.0.2"
 Comp "©2016 Wirehive ltd, CC BY-SA "
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	3950 1350 3950 1450
-Wire Wire Line
-	2950 1450 2950 1350
-Connection ~ 3450 1750
-Wire Wire Line
-	3050 1450 2950 1450
-Wire Wire Line
-	3950 1450 3850 1450
-Wire Wire Line
-	2950 1750 3950 1750
 $Comp
 L 7805 U1
 U 1 1 57EB80F8
@@ -76,8 +65,6 @@ F 3 "" H 3300 2550 50  0000 C CNN
 	1    3300 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 2550 3300 2650
 Text Label 1550 5450 2    60   ~ 0
 TXD
 Text Label 1550 5650 2    60   ~ 0
@@ -115,14 +102,6 @@ F 3 "" H 1350 4550 50  0000 C CNN
 	1    1350 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 4350 1350 4350
-Wire Wire Line
-	1350 4350 1350 4400
-Wire Wire Line
-	1550 4750 1350 4750
-Wire Wire Line
-	1350 4750 1350 4700
 $Comp
 L C C6
 U 1 1 57EC22B0
@@ -134,14 +113,6 @@ F 3 "" H 1350 5050 50  0000 C CNN
 	1    1350 5050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1350 4900 1350 4850
-Wire Wire Line
-	1350 4850 1550 4850
-Wire Wire Line
-	1550 5250 1350 5250
-Wire Wire Line
-	1350 5250 1350 5200
 $Comp
 L C C3
 U 1 1 57EC2488
@@ -153,8 +124,6 @@ F 3 "" H 2950 4350 50  0000 C CNN
 	1    2950 4350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2750 4350 2800 4350
 $Comp
 L C C5
 U 1 1 57EC27F6
@@ -177,9 +146,7 @@ F 3 "" H 2950 5250 50  0000 C CNN
 	1    2950 5250
 	0    1    1    0   
 $EndComp
-NoConn ~ 1550 5550
 NoConn ~ 1550 5750
-NoConn ~ 2750 5750
 NoConn ~ 2750 5550
 Text Label 2750 5450 0    60   ~ 0
 EIA-TX
@@ -189,29 +156,15 @@ Text Label 3300 2850 0    60   ~ 0
 EIA-TX
 Text Label 3300 2750 0    60   ~ 0
 EIA-RX
-Wire Wire Line
-	2800 5250 2750 5250
-Wire Wire Line
-	2750 4750 2800 4750
-Wire Wire Line
-	3100 4350 3100 5250
-Connection ~ 3100 4950
-Wire Wire Line
-	2750 4950 3200 4950
-Connection ~ 3100 4750
-Wire Wire Line
-	2750 4250 2750 4350
-Wire Wire Line
-	3200 4950 3200 5050
 $Comp
 L GND #PWR02
 U 1 1 57EC8118
-P 3200 5050
-F 0 "#PWR02" H 3200 4800 50  0001 C CNN
-F 1 "GND" H 3200 4900 50  0000 C CNN
-F 2 "" H 3200 5050 50  0000 C CNN
-F 3 "" H 3200 5050 50  0000 C CNN
-	1    3200 5050
+P 3200 5950
+F 0 "#PWR02" H 3200 5700 50  0001 C CNN
+F 1 "GND" H 3200 5800 50  0000 C CNN
+F 2 "" H 3200 5950 50  0000 C CNN
+F 3 "" H 3200 5950 50  0000 C CNN
+	1    3200 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -236,10 +189,6 @@ F 3 "" H 1900 2850 50  0000 C CNN
 	1    1900 2850
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	3300 2650 3650 2650
-Wire Wire Line
-	3650 2650 3650 2600
 $Comp
 L +12V #PWR04
 U 1 1 57ECB26F
@@ -251,8 +200,6 @@ F 3 "" H 1600 2650 50  0000 C CNN
 	1    1600 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 2650 1600 2750
 Text Label 1600 2950 2    60   ~ 0
 buzzer
 Text Label 3300 2950 0    60   ~ 0
@@ -283,8 +230,6 @@ F 3 "" H 2200 1500 50  0000 C CNN
 $EndComp
 Text Label 1900 1300 0    60   ~ 0
 RXD
-Wire Wire Line
-	1900 1500 2200 1500
 $Comp
 L +5V #PWR06
 U 1 1 57ECBF0B
@@ -296,8 +241,6 @@ F 3 "" H 3950 1350 50  0000 C CNN
 	1    3950 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 3050 3300 3150
 $Comp
 L PWR_FLAG #FLG07
 U 1 1 57ECC2CB
@@ -331,8 +274,6 @@ F 3 "" H 1900 1700 50  0000 C CNN
 	1    1900 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 1600 1900 1700
 $Comp
 L GND #PWR010
 U 1 1 57ECC734
@@ -355,10 +296,6 @@ F 3 "" H 3600 3100 50  0000 C CNN
 	1    3600 3100
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3300 3050 3600 3050
-Wire Wire Line
-	3600 3050 3600 3100
 $Comp
 L CP C2
 U 1 1 57EE237E
@@ -392,14 +329,6 @@ F 3 "" H 2750 4250 50  0000 C CNN
 	1    2750 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 1350 5550 1450
-Wire Wire Line
-	4550 1450 4550 1350
-Wire Wire Line
-	4650 1450 4550 1450
-Wire Wire Line
-	5550 1450 5450 1450
 $Comp
 L 7805 U3
 U 1 1 57F223B7
@@ -456,5 +385,84 @@ F 3 "" H 4550 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	3950 1350 3950 1450
+Wire Wire Line
+	2950 1450 2950 1350
+Connection ~ 3450 1750
+Wire Wire Line
+	3050 1450 2950 1450
+Wire Wire Line
+	3950 1450 3850 1450
+Wire Wire Line
+	2950 1750 3950 1750
+Wire Wire Line
+	3300 2550 3300 2650
+Wire Wire Line
+	1550 4350 1350 4350
+Wire Wire Line
+	1350 4350 1350 4400
+Wire Wire Line
+	1550 4750 1350 4750
+Wire Wire Line
+	1350 4750 1350 4700
+Wire Wire Line
+	1350 4900 1350 4850
+Wire Wire Line
+	1350 4850 1550 4850
+Wire Wire Line
+	1550 5250 1350 5250
+Wire Wire Line
+	1350 5250 1350 5200
+Wire Wire Line
+	2750 4350 2800 4350
+Wire Wire Line
+	2800 5250 2750 5250
+Wire Wire Line
+	2750 4750 2800 4750
+Wire Wire Line
+	3100 4350 3100 5250
+Connection ~ 3100 4950
+Wire Wire Line
+	2750 4950 3200 4950
+Connection ~ 3100 4750
+Wire Wire Line
+	2750 4250 2750 4350
+Wire Wire Line
+	3200 4950 3200 5950
+Wire Wire Line
+	3300 2650 3650 2650
+Wire Wire Line
+	3650 2650 3650 2600
+Wire Wire Line
+	1600 2650 1600 2750
+Wire Wire Line
+	1900 1500 2200 1500
+Wire Wire Line
+	3300 3050 3300 3150
+Wire Wire Line
+	1900 1600 1900 1700
+Wire Wire Line
+	3300 3050 3600 3050
+Wire Wire Line
+	3600 3050 3600 3100
+Wire Wire Line
+	5550 1350 5550 1450
+Wire Wire Line
+	4550 1450 4550 1350
+Wire Wire Line
+	4650 1450 4550 1450
+Wire Wire Line
+	5550 1450 5450 1450
+Wire Wire Line
 	4550 1750 5050 1750
+Wire Wire Line
+	2750 5750 3200 5750
+Connection ~ 3200 5750
+Wire Wire Line
+	1350 5550 1350 5900
+Wire Wire Line
+	1350 5900 3200 5900
+Connection ~ 3200 5900
+Wire Wire Line
+	1550 5550 1350 5550
 $EndSCHEMATC
