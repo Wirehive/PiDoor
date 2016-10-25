@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /home/barnaby/wirehive/PiDoor/rfidreaderback/rfidreaderback.sch)
-    (date "Thu 06 Oct 2016 17:32:05 BST")
+    (date "Fri 07 Oct 2016 10:26:37 BST")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "RFID Reader Back")
         (company "©2016 Wirehive ltd, CC BY-SA ")
-        (rev 0.0.1)
+        (rev 0.0.2)
         (date 2016-09-28)
         (source rfidreaderback.sch)
         (comment (number 1) (value ""))
@@ -204,10 +204,10 @@
         (pin (num 1) (name 1) (type input))
         (pin (num 2) (name 2) (type input)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical regul)
       (uri /usr/share/kicad/library/regul.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical interface)
